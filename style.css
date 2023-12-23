@@ -6,6 +6,8 @@
     grid-template-columns: 1fr;
     grid-template-areas: 'header' 'sidebar' 'main' 'widget' 'statistics' 'footer';
     height: 100vh;
+    text-align: center;
+    
 
 }
 @media(min-width : 400px){
@@ -41,5 +43,8 @@ main{
     grid-area: widget;
     background-color: rgb(214, 114, 131);
     width: 100%;
-    
+
+}
+img{
+    width: 100%;
 }

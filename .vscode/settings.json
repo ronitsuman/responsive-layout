@@ -1,0 +1,23 @@
+
+ Show activity on this post.
+The accepted answer is good, but thought I'd add this as it obviates the need to edit the theme JSON itself. I edited my settings as follows:
+
+Show activity on this post.
+The accepted answer is good, but thought I'd add this as it obviates the need to edit the theme JSON itself. I edited my settings as follows:
+
+"editor.tokenColorCustomizations": {
+    "[Abyss]": {
+        "keywords": "#7ea4df",
+        "types": "#1fa8d8",
+        "comments": "#727272",
+        "strings": "#29a792",
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#7ea4df"
+                }
+            }
+        ]
+    }
+}
